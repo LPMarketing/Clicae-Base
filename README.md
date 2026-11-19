@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/clicaebio",
+      "destination": "https://clicae-bio-ten.vercel.app/"
+    },
+    {
+      "source": "/clicaebio/:path*",
+      "destination": "https://clicae-bio-ten.vercel.app/:path*"
+    },
+    {
+      "source": "/cnn",
+      "destination": "https://capoeira-nossa-na-oooo.vercel.app/"
+    },
+    {
+      "source": "/cnn/:path*",
+      "destination": "https://capoeira-nossa-na-oooo.vercel.app/:path*"
+    }
+  ]
+}
