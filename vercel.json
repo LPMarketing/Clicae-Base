@@ -1,12 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/",
-      "destination": "https://clicae.vercel.app/"
+      "source": "/bio",
+      "destination": "https://clicae-bio-ten.vercel.app/"
     },
     {
-      "source": "/:path*",
-      "destination": "https://clicae.vercel.app/:path*"
+      "source": "/bio/:path*",
+      "destination": "https://clicae-bio-ten.vercel.app/:path*"
     }
   ]
 }
