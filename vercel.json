@@ -9,6 +9,14 @@
       "destination": "https://clicae-bio-ten.vercel.app/:path*"
     },
     {
+      "source": "/tourosburguer",
+      "destination": "https://touros-burguer.vercel.app/"
+    },
+    {
+      "source": "/tourosburguer/:path*",
+      "destination": "https://touros-burguer.vercel.app/:path*"
+    },
+    {
       "source": "/cnn",
       "destination": "https://capoeira-nossa-na-oooo.vercel.app/"
     },
