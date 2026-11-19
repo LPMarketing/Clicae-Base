@@ -34,11 +34,11 @@
     },
     {
       "source": "/site",
-      "destination": "https://clicae.app.vercel.com/"
+      "destination": "https://clicae.vercel.app/"
     },
     {
       "source": "/site/:path*",
-      "destination": "https://clicae.app.vercel.com/:path*"
+      "destination": "https://clicae.vercel.app/:path*"
     }
   ]
 }
