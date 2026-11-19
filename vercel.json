@@ -31,6 +31,14 @@
     {
       "source": "/onze/:path*",
       "destination": "https://onze-links.vercel.app/:path*"
+    },
+    {
+      "source": "/site",
+      "destination": "https://clicae.app.vercel.com/"
+    },
+    {
+      "source": "/site/:path*",
+      "destination": "https://clicae.app.vercel.com/:path*"
     }
   ]
 }
