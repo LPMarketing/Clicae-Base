@@ -18,3 +18,13 @@
     }
   ]
 }
+{
+      "source": "/site",
+      "destination": "https://clicae.vercel.app/"
+    },
+    {
+      "source": "/site/:path*",
+      "destination": "https://clicae.vercel.app/:path*"
+    }
+  ]
+}
