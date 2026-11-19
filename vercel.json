@@ -1,3 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/clicaebio",
+      "destination": "https://clicae-bio-ten.vercel.app/"
+    },
     {
       "source": "/clicaebio/:path*",
       "destination": "https://clicae-bio-ten.vercel.app/:path*"
