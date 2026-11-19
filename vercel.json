@@ -1,12 +1,14 @@
-{
-  "rewrites": [
     {
-      "source": "/bio",
-      "destination": "https://clicae-bio-ten.vercel.app/"
+      "source": "/clicaebio/:path*",
+      "destination": "https://clicae-bio-ten.vercel.app/:path*"
     },
     {
-      "source": "/bio/:path*",
-      "destination": "https://clicae-bio-ten.vercel.app/:path*"
+      "source": "/tourosburguer",
+      "destination": "https://touros-burguer.vercel.app/"
+    },
+    {
+      "source": "/tourosburguer/:path*",
+      "destination": "https://touros-burguer.vercel.app/:path*"
     }
   ]
 }
