@@ -19,12 +19,22 @@
   ]
 }
 {
+  "rewrites": [
+    {
       "source": "/site",
       "destination": "https://clicae.vercel.app/"
     },
     {
       "source": "/site/:path*",
       "destination": "https://clicae.vercel.app/:path*"
+    },
+    {
+      "source": "/onzelounge",
+      "destination": "onze-links.vercel.app"
+    },
+    {
+      "source": "/onzelounge/:path*",
+      "destination": "onze-links.vercel.app:path*"
     }
   ]
 }
