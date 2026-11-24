@@ -17,6 +17,14 @@
       "destination": "https://touros-burguer.vercel.app/:path*"
     },
     {
+      "source": "/tourosburguercardapio",
+      "destination": "https://touros-cardapio-amarelo.vercel.app/"
+    },
+    {
+      "source": "/tourosburguercardapio/:path*",
+      "destination": "https://touros-cardapio-amarelo.vercel.app/:path*"
+    },
+    {
       "source": "/cnn",
       "destination": "https://capoeira-nossa-na-oooo.vercel.app/"
     },
