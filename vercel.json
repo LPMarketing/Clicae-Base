@@ -50,11 +50,11 @@
     },
     {
       "source": "/clicae",
-      "destination": "https://clicae.vercel.app//"
+      "destination": "https://clicae.vercel.app/"
     },
     {
       "source": "/clicae/:path*",
-      "destination": "https://clicae.vercel.app//:path*"
+      "destination": "https://clicae.vercel.app/:path*"
     }
   ]
 }
