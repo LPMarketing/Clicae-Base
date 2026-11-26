@@ -55,6 +55,14 @@
     {
       "source": "/clicae/:path*",
       "destination": "https://clicae.vercel.app/:path*"
+    },
+    {
+      "source": "/tocae",
+      "destination": "https://tocaenfc.vercel.app/"
+    },
+    {
+      "source": "/tocae/:path*",
+      "destination": "https://tocaenfc.vercel.app/:path*"
     }
   ]
 }
