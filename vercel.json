@@ -58,11 +58,11 @@
     },
     {
       "source": "/tocae",
-      "destination": "https://tocaenfc.vercel.app"
+      "destination": "https://tocaenfc.vercel.app/"
     },
     {
       "source": "/tocae/:path*",
-      "destination": "https://tocaenfc.vercel.app:path*"
+      "destination": "https://tocaenfc.vercel.app/:path*"
     }
   ]
 }
