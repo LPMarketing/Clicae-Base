@@ -63,6 +63,14 @@
     {
       "source": "/tocae/:path*",
       "destination": "https://tocaenfc.vercel.app/:path*"
+    },
+    {
+      "source": "/tocae.bio",
+      "destination": "https://tocae-bio-rho.vercel.app/"
+    },
+    {
+      "source": "/tocae.bio/:path*",
+      "destination": "https://tocae-bio-rho.vercel.app/:path*"
     }
   ]
 }
