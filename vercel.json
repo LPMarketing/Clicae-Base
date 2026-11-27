@@ -71,6 +71,14 @@
     {
       "source": "/tocae.bio/:path*",
       "destination": "https://tocae-bio-rho.vercel.app/:path*"
+    },
+    {
+      "source": "/mjbarbershop",
+      "destination": "https://mj-barber-bio-rho.vercel.app/"
+    },
+    {
+      "source": "/mjbarbershop/:path*",
+      "destination": "https://mj-barber-bio-rho.vercel.app/:path*"
     }
   ]
 }
