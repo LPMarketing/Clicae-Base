@@ -79,6 +79,14 @@
     {
       "source": "/jmbarbershop/:path*",
       "destination": "https://mj-barber-bio-rho.vercel.app/:path*"
+    },
+        {
+      "source": "/vazzstoree",
+      "destination": "https://vazzstorebio-psi.vercel.app/"
+    },
+    {
+      "source": "/vazzstoree/:path*",
+      "destination": "https://vazzstorebio-psi.vercel.app/:path*"
     }
   ]
 }
